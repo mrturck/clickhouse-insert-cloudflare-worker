@@ -1,3 +1,10 @@
 name = "clickhouse-insert-cloudflare-worker"
 main = "src/index.ts"
 compatibility_date = "2023-12-22"
+
+
+[vars]
+# CLCKHOUSE_USER recommended to add these as secrets and not store in wrangler.toml
+# CLICKHOUSE_TABLE
+# CLICKHOUSE_HOST
+

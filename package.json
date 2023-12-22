@@ -10,5 +10,8 @@
   "scripts": {
     "start": "wrangler dev",
     "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@clickhouse/client-web": "^0.2.7"
   }
 }
